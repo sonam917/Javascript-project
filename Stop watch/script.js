@@ -74,7 +74,7 @@ function stopwatch(){
         document.getElementById("min").innerHTML = minstring;
         document.getElementById("sec").innerHTML = secstring;
         document.getElementById("count").innerHTML = countstring;
-        setTimeout("stopwatch()", 1);
+        setTimeout("stopwatch()", 10);
     }
 
 }
